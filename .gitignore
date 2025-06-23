@@ -1,0 +1,72 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.pdb
+*.exe
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+
+# Test Results
+TestResults/
+
+# Package Management
+packages/
+*.nupkg
+*.snk
+
+# Node.js (if you're using npm/yarn for frontend assets)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database files
+*.mdf
+*.ldf
+*.db         # For SQLite databases, like app.db
+*.sdb
+[Dd]ata/     # If your database files are in a 'Data' folder that you don't want to track
+
+# User Secrets and other sensitive configuration (VERY IMPORTANT!)
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.json # Only if it contains actual secrets. Usually, it's fine for placeholders.
+appsettings.*.json # Catch-all for environment-specific settings.
+.env # If you're using .env files for environment variables
+
+# Kestrel HTTPs development certificate
+.dotnet/
+.config/
+
+# Azure related files
+.azure/
+
+# IDE specific files
+.idea/ # For Rider or IntelliJ
+*.csproj.user # Specific to one user's project settings
+
+# Rider/Resharper specific files
+*.DotSettings
+*.userprefs
+
+# Generated files
+GeneratedFiles/
+
+# Log files (if not in a dedicated folder already ignored)
+*.log
+logs/ # If you have a dedicated logs folder
+
+# Wyam (Static Site Generator)
+_Output/
